@@ -45,4 +45,10 @@ document.onkeyup = function(event) {
 
     $("#game").html(html);
   }
+
+
+  $()
+
+  
+
 };

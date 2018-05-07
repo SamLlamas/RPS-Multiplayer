@@ -1,0 +1,51 @@
+body{
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/light-veneer.png");
+}
+
+#theGame {
+     margin: 0 auto;
+     background: black;
+     color: white;
+     padding: 10px; 
+     text-align: center;
+     width: 50%;
+     font-size: 48px;
+}
+
+#instruction{
+    margin: 30px;
+    text-align: center;
+    font-size: 36px;
+}
+
+#player1, #winner, #player2{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    height: 250px;
+    margin: 0 10px;
+}
+
+#container{
+    text-align: center;
+    margin: 30px;
+}
+
+
+#chatBox{
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+#chatting{
+    margin: 0 auto;
+    text-align: center;
+}
+

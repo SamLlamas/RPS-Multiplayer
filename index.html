@@ -14,11 +14,41 @@
 </head>
 
 <body>
+  <h1 id ="theGame">Rock Paper Scissors</h1>
 
-  <div id="game">
-    <p>Press r, p or s to start playing!</p>
+  <div id="instruction">
+    Please input your name
+    <form>
+      <input type="text" name="name">  
+      <input type="submit" value="Start">
+    </form>
+
+  </div>
+  <div id = "container">
+    <div id = "player1">
+      
+    </div> 
+
+    <div id = "winner">
+
+    </div>
+
+    <div id="player2">
+
+    </div>
+  </div>
+  
+  <div id = "chatting">
+    <div id = "chatBox"></div>
+    <form>
+        <input type="text" name="chat">  
+        <input type="submit" value="Send">
+    </form>
   </div>
 
+
+
+  </form>
   <script src = "game.js"></script>
 
 </body>
